@@ -1,0 +1,92 @@
+.body01 {
+    background: #64CC52;  
+    width: 100%;
+
+}
+
+.header01 {
+    border: 5px ridge #403F3A;
+    background-color:#E6E3D1;
+    width:80%;
+    padding:55px;
+    margin: auto;
+}
+
+h1 {
+    color: #64CC52;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 10px rgb(28, 94, 28);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    background: #E6E3D1;
+    border: double 10px #403F3A;
+}
+
+h2 {
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.photo1 {
+    display: block;
+    margin: 0 auto;
+    border: 10px dotted #403F3A;
+    padding: 3px;  
+}
+
+p { 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+   /*onderstaand de horthand*/
+
+    padding: 20px
+}
+
+.list {
+    border: 5px solid #403F3A;
+    width: 80%;
+    padding: 55px;
+    margin:auto;
+    background: #E6E3D1;
+    list-style-type: none;
+}
+.nav-lijst {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow:hidden;
+}
+
+.list1 {
+    float: left;
+}
+li a {
+    display: inline-block;
+    background-color: darkgrey;
+    width: 60px;
+    padding: 10px 5px;
+    border: 1px solid #555;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    background-color: #111;
+    width:60px;
+    padding: 10px 5px;
+}
+
